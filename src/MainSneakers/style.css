@@ -1,0 +1,24 @@
+.main_sneakers_img{
+
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_sneakers_div{
+
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 7.5%;
+}
+
+@media all and (max-width: 800px){
+
+    .main_sneakers_div{
+
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,38 @@
+.greensmoke_img{
+
+    position: absolute;
+    height: auto;
+    width: 50%;
+     z-index: 1;
+    top: 15%;
+    left: -14%;
+    display: block;
+    animation-name: greensmoke_motion;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes greensmoke_motion {
+  100% {left: -20%;}
+}
+
+.greensmoke_img2{
+
+    position: absolute;
+    height: auto;
+    width: 50%;
+    z-index: 1;
+    top: 15%;
+    right: -14%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    animation-name: greensmoke_motion2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes greensmoke_motion2 {
+  100% {right: -20%;}
+}
