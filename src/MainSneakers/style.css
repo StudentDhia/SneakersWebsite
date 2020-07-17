@@ -15,6 +15,14 @@
     margin-left: 7.5%;
 }
 
+.main_sneakers{
+
+    position: relative;
+    width: auto;
+    height: 800px;
+    background-color: magenta;
+}
+
 @media all and (max-width: 800px){
 
     .main_sneakers_div{
